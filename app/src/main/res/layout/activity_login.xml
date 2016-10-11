@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="me.blog.eyeballs.memo.Login"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/ID_editTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Put you ID here"/>
+
+    <ru.katso.livebutton.LiveButton
+        xmlns:livebutton="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ID_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:text=" Button "
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="10dp"
+        livebutton:corners="4dp"
+        livebutton:normalHeight="6dp"
+        livebutton:pressedHeight="2dp"
+        livebutton:backgroundColor="#F57F76"
+        livebutton:shadowColor="#b16262"/>
+
+
+</LinearLayout>
